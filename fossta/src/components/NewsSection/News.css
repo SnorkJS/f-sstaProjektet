@@ -1,0 +1,32 @@
+#news-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e9e9e9;
+    padding: 30px;
+    margin-top: 4px;
+    padding-bottom: 70px;
+}
+
+#news-page h1 {
+    font-family: MotoGP;
+    margin: 0;
+    font-size: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1.5px solid black;
+    width: 400px;
+    text-align: center;
+}
+
+#news-page .card-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 70px;
+    row-gap: 50px;
+    margin-top: 50px;
+}
+
+p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}

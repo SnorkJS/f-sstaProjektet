@@ -1,0 +1,62 @@
+import React from "react";
+import "./News.css";
+import Card from "../NewsCards/Card";
+import AE41 from "../../img/41AE.jpg";
+import MM93 from "../../img/MM93.jpg";
+import BB33 from "../../img/BB33.jpg";
+
+export default function News(props) {
+    return(
+        <div id="news-page">
+            <h1>LATEST NEWS</h1>
+            <div className="card-container">
+                <Card name="Marc Marquez" img={MM93}>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, libero eaque mollitia assumenda aliquam nostrum cupiditate eveniet omnis tempore reprehenderit, ipsam provident dolor distinctio, quibusdam necessitatibus. Harum ratione velit consequuntur.
+                    </p>
+                </Card>
+                <Card name="Aleix Espargaro" img={AE41}>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. In expedita quibusdam, suscipit possimus, distinctio, atque sequi consequuntur rerum fuga incidunt nulla sed tempore. Est, tenetur dicta.
+                    </p>
+                </Card>
+                <Card name="Brad Binder" img={BB33}>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem aperiam quaerat sit asperiores. Autem esse nulla totam, sapiente, dolores perspiciatis quam deleniti sunt, officia quo nihil voluptas.
+                    </p>
+                </Card>
+                <Card name="Brad Binder" img={BB33}>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem aperiam quaerat sit asperiores. Autem esse nulla totam, sapiente, dolores perspiciatis quam deleniti sunt, officia quo nihil voluptas.
+                    </p>
+                </Card>
+                <Card name="Brad Binder" img={BB33}>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem aperiam quaerat sit asperiores. Autem esse nulla totam, sapiente, dolores perspiciatis quam deleniti sunt, officia quo nihil voluptas.
+                    </p>
+                </Card>
+                <Card name="Brad Binder" img={BB33}>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem aperiam quaerat sit asperiores. Autem esse nulla totam, sapiente, dolores perspiciatis quam deleniti sunt, officia quo nihil voluptas.
+                    </p>
+                </Card>
+                <Card name="Brad Binder" img={BB33}>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem aperiam quaerat sit asperiores. Autem esse nulla totam, sapiente, dolores perspiciatis quam deleniti sunt, officia quo nihil voluptas.
+                    </p>
+                </Card>
+                <Card name="Brad Binder" img={BB33}>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem aperiam quaerat sit asperiores. Autem esse nulla totam, sapiente, dolores perspiciatis quam deleniti sunt, officia quo nihil voluptas.
+                    </p>
+                </Card>
+                <Card name="Brad Binder" img={BB33}>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem aperiam quaerat sit asperiores. Autem esse nulla totam, sapiente, dolores perspiciatis quam deleniti sunt, officia quo nihil voluptas.
+                    </p>
+                </Card>
+                
+            </div>
+        </div>
+    )
+}

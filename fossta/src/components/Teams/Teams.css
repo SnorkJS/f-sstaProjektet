@@ -1,0 +1,9 @@
+.team-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    align-items: center;
+}
+
+.team-container a {
+    height: 100%;
+}

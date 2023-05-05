@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>8B51E256-77E2-4935-8E04-3395312E3113</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M3.5,5.09090909 L3.5,13.0454545 L0.954545455,13.0454545 L0.954545455,5.09090909 L3.5,5.09090909 Z M10.1579584,4.77272727 C11.8403039,4.77272727 13.0454545,5.81249653 13.0454545,7.96269898 L13.0454545,7.96269898 L13.0454545,13.0454545 L10.6002213,13.0454545 L10.6002213,8.83148677 C10.6002213,7.67562677 10.1660676,7.0308184 9.26220463,7.0308184 C8.27912106,7.0308184 7.76574683,7.70275667 7.76574683,8.83148677 L7.76574683,8.83148677 L7.76574683,13.0454545 L5.40909091,13.0454545 L5.40909091,5.01815825 L7.76574683,5.01815825 L7.76574683,6.09893782 C7.76574683,6.09893782 8.47436545,4.77272727 10.1579584,4.77272727 Z M2.38636364,0.954545455 C3.17758304,0.954545455 3.81818182,1.59544874 3.81818182,2.38575383 C3.81818182,3.17666873 3.17758304,3.81818182 2.38636364,3.81818182 C1.59575901,3.81818182 0.954545455,3.17666873 0.954545455,2.38575383 C0.954545455,1.59544874 1.59575901,0.954545455 2.38636364,0.954545455 Z" id="path-1"></path>
+    </defs>
+    <g id="Social-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="social-icons" transform="translate(-183.000000, -5.000000)">
+            <g id="social-bar">
+                <g id="social-menu" transform="translate(10.000000, 0.000000)">
+                    <g id="social-default">
+                        <g id="molecule/button/social/button-social-linkedin-atom/button/social/button-social-small" transform="translate(168.000000, 0.000000)">
+                            <g id="icon/social/negative/instagram-atom/icon/social/icon-social-tiktok-copy" transform="translate(5.000000, 5.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="linkedin" fill="#DADBE0" xlink:href="#path-1"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

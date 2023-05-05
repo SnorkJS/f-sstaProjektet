@@ -1,0 +1,118 @@
+#footer {
+    padding: 15px 30px;
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    color: white;
+    font-family: MotoGP Font;
+}
+
+#footer span {
+    color: white;
+}
+
+#footer li a {
+    text-decoration-line: none;
+    color: white;
+}
+
+#footer #social-networks a {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    margin-right: 8px;
+}
+
+#footer ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+#footer button {
+    background-color: rgb(203, 0, 0);
+    border: none;
+    color: white;
+    font-family: MotoGP;
+    font-size: xx-large;
+    padding: 0px 30px;
+}
+
+#footer button:hover {
+    cursor: pointer;
+    background-color: rgb(130, 0, 0);
+}
+
+#footer .container {
+    margin: 0px 60px;
+}
+
+#footer #email-input {
+    padding: 5px 5px;
+    font-size: xx-large;
+    font-family: MotoGP Font;
+}
+
+#footer #instagram-icon {
+    background: url(../../img/instagramNoColor.svg) no-repeat;
+    background-size: contain;
+}
+
+#footer #instagram-icon:hover {
+    background: url(../../img/instagram.svg) no-repeat;
+    background-size: contain;
+}
+
+#footer #twitter-icon {
+    background: url(../../img/twitterNoColor.svg) no-repeat;
+    background-size: contain;
+}
+
+#footer #twitter-icon:hover {
+    background: url(../../img/twitter.svg) no-repeat;
+    background-size: contain;
+}
+
+#footer #youtube-icon {
+    background: url(../../img/youtubeNoColor.svg) no-repeat;
+    background-size: contain;
+}
+
+#footer #youtube-icon:hover {
+    background: url(../../img/youtube.svg) no-repeat;
+    background-size: contain;
+}
+
+#footer #linkedin-icon {
+    background: url(../../img/linkedinNoColor.svg) no-repeat;
+    background-size: contain;
+}
+
+#footer #linkedin-icon:hover {
+    background: url(../../img/linkedin.svg) no-repeat;
+    background-size: contain;
+}
+
+#footer #spotify-icon {
+    background: url(../../img/spotifyNoColor.svg) no-repeat;
+    background-size: contain;
+}
+
+#footer #spotify-icon:hover {
+    background: url(../../img/spotify.svg) no-repeat;
+    background-size: contain;
+}
+
+#footer #newsletter {
+    margin-left: auto;
+}
+
+#footer #newsletter-container {
+    display: flex;
+}
+
+@font-face {
+    font-family: MotoGP Font;
+    src: url(../../../public/MotoGPTextWeb-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
