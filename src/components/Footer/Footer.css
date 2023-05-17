@@ -113,10 +113,3 @@
 #footer #newsletter-container {
     display: flex;
 }
-
-@font-face {
-    font-family: MotoGP Font;
-    src: url(../../../public/MotoGPTextWeb-Regular.woff) format("woff");
-    font-weight: 400;
-    font-style: normal;
-}
