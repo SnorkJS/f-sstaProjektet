@@ -19,10 +19,10 @@
 }
 
 #news-page .card-container {
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    column-gap: 70px;
-    row-gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px 70px;
     margin-top: 50px;
 }
 
