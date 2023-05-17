@@ -12,8 +12,6 @@ import WhiteFlag from "../../img/WhiteFlag.png";
 import SurfaceFlag from "../../img/SurfaceFlag.png";
 import RainFlag from "../../img/RainFlag.png";
 import TechnicalFlag from "../../img/TechnicalFlag.png";
-import FortniteFlag from "../../img/FortniteMontage.gif";
-import TryhardFlag from "../../img/Tryhard.gif";
 
 export default function Rules() {
     return (
@@ -29,8 +27,6 @@ export default function Rules() {
                 <RuleCard image={WhiteFlag} name="White Flag" description="lolololollol"/>
                 <RuleCard image={SurfaceFlag} name="Surface Flag" description="lolololollol"/>
                 <RuleCard image={RainFlag} name="Rain Flag" description="lolololollol"/>
-                <RuleCard image={FortniteFlag} name="Fortnite Flag" description="lolololollol"/>
-                <RuleCard image={TryhardFlag} name="Tryhard Flag" description="lolololollol"/>
                 <RuleCard image={TechnicalFlag} name="Technical Flag" description="lolololollol"/>
             </div>
         </div>
