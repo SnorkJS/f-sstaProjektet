@@ -1,25 +1,24 @@
-.card {
+#card {
     border-radius: 5px;
     background-color: white;
 }
 
-.card-img {
+#card .card-img {
     width: 100%;
 }
 
-.card-source {
+#card .card-source {
     padding: 5px;
 }
 
-.card-name {
+#card .card-name {
     margin: 0px;
     padding: 5px 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.card p {
+#card p {
     padding: 10px 10px;
-    color: darkgray;
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 13px;

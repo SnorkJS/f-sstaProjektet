@@ -6,7 +6,7 @@ import KTM from "../../img/KTM.jpg";
 export default function Header() {
     return(
         <div>
-            <img className="header-img" src={KTM}/>
+            <img aria-label="picture of motorcycle" className="header-img" src={KTM}/>
         </div>
     )
 }

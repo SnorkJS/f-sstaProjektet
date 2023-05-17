@@ -11,9 +11,13 @@
     color: white;
 }
 
-#footer li a {
+#footer a {
     text-decoration-line: none;
     color: white;
+}
+
+#footer a:hover {
+    color: rgba(255, 255, 255, 0.65);
 }
 
 #footer #social-networks a {

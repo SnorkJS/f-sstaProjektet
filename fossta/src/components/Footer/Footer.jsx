@@ -25,11 +25,11 @@ export default function Footer() {
             <div className="container">
                 <h2>Social Networks</h2>
                 <div id="social-networks">
-                    <Link id="instagram-icon" to="instagram.com"></Link>
-                    <Link id="twitter-icon" to="twitter.com"></Link>
-                    <Link id="youtube-icon" to="youtube.com"></Link>
-                    <Link id="linkedin-icon" to="linkedin.com"></Link>
-                    <Link id="spotify-icon" to="spotify.com"></Link>
+                    <Link aria-label="instagram icon" id="instagram-icon" to="instagram.com"></Link>
+                    <Link aria-label="twitter icon" id="twitter-icon" to="twitter.com"></Link>
+                    <Link aria-label="youtube icon" id="youtube-icon" to="youtube.com"></Link>
+                    <Link aria-label="linkedin icon" id="linkedin-icon" to="linkedin.com"></Link>
+                    <Link aria-label="spotify icon" id="spotify-icon" to="spotify.com"></Link>
                 </div>
             </div>
             <div id="newsletter">

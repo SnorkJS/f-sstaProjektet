@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./App.css";
 import Home from "./components/Home/Home";
 import Rules from "./components/Rules/Rules";
 import Teams from "./components/Teams/Teams";

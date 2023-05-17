@@ -1,39 +1,39 @@
 #rider-card {
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    align-items: center; 
+    font-family: MotoGP Font;
 }
 
-#rider-card h2 {
+#rider-card h2, h3 {
     margin-block-start: 0;
     margin-block-end: 0;
-    color: white;
 }
 
-#rider-card .avatar {
-    height: 330px;
-    width: 220px;
-}
 
-#rider-card .card {
-    border-radius: 1rem;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    margin: 0 1rem;
+
+#rider-card a img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50px;
+    top: 7%;
 }
 
 #rider-card .rider {
-    height: 330px;
+    display: flex;
+    justify-content: center;
+}
+
+#rider-card .card {
+    width: 100%;
+    text-align: center;
+}
+
+#rider-card .avatar {
+    padding-top: 10px;
 }
 
 #rider-card .information {
-    background-color: black;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    padding: 20px 150px;
+    border: 1px solid black;
 }
-
-/* #rider-card #card-2 {
-    padding-left: 4rem;
-    padding-right: 0;
-} */
