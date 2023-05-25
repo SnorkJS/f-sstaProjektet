@@ -1,6 +1,7 @@
 import React from "react";
 import "./Rules.css";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 import RuleCard from "./RulesCard/RuleCard";
 import ChequeredFlag from "../../img/ChequeredFlag.png";
 import YellowFlag from "../../img/YellowFlag.png";
@@ -29,6 +30,7 @@ export default function Rules() {
                 <RuleCard image={RainFlag} name="Rain Flag" description="lolololollol"/>
                 <RuleCard image={TechnicalFlag} name="Technical Flag" description="lolololollol"/>
             </div>
+            <Footer />
         </div>
     )
 }
