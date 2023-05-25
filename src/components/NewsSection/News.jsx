@@ -1,9 +1,9 @@
 import React from "react";
 import "./News.css";
 import Card from "../NewsCards/Card";
-import AE41 from "../../img/41AE.jpg";
-import MM93 from "../../img/MM93.jpg";
-import JM89 from "../../img/jorgemartin.jpg";
+import AE41 from "../../img/41AE.webp";
+import MM93 from "../../img/MM93.webp";
+import JM89 from "../../img/jorgemartin.webp";
 
 export default function News(props) {
     return(
