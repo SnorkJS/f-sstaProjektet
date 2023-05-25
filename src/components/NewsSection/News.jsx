@@ -1,6 +1,6 @@
 import React from "react";
 import "./News.css";
-import Card from "../NewsCards/Card";
+import Card from "../NewsCards/NewsCard";
 import AE41 from "../../img/41AE.webp";
 import MM93 from "../../img/MM93.webp";
 import JM89 from "../../img/jorgemartin.webp";
