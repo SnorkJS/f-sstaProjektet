@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Rules from "./components/Rules/Rules";
 import Teams from "./components/Teams/Teams";
-import Contact from "./components/Contact/Contact";
+import Standings from "./components/Standings/Standings";
 import Login from "./components/Login/Login";
 import Ducati from "./components/Teams/Ducati/Ducati";
 import Yamaha from "./components/Teams/Yamaha/Yamaha";
@@ -22,10 +22,10 @@ export default function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/rules" element={<Rules />} />
                     <Route path="/teams" element={<Teams />} />
-                    <Route path="/standings" element={<Contact />} />
+                    <Route path="/standings" element={<Standings />} />
                     <Route path="/login" element={<Login />} />
 
-                    {/* Teams Routes */}
+                    {/* Team Routes */}
                     <Route path="/ducati" element={<Ducati />} />
                     <Route path="/yamaha" element={<Yamaha />} />
                     <Route path="/ktm" element={<Ktm />} />

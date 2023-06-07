@@ -1,28 +1,81 @@
-nav {
-    display: flex;
-    box-sizing: border-box;
-    -webkit-box-shadow: 0px 2px 5px #000; /* Safari */
-    -moz-box-shadow: 0px 2px 5px #000; /* Firefox */
-    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.285); /* Standard */
+#navbar {
+    position: sticky;
+    height: 43.33px;
 }
 
+#navbar div {
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.285);
+}
 
-
-nav a {
+#navbar a {
     color: rgb(203, 0, 0);
     font-size: 20px;
     font-family: MotoGP;
     font-weight: bold;
-    padding: 7px 0;
-    margin: 0 20px;
+    padding: 7px 0px;
+    margin: 0px 20px;
     text-decoration-line: none;
     border-bottom: 3px solid white;
 }
 
-nav a:hover {
+#navbar button {
+    padding: 0px 30px;
+    display: none;
+    border: none;
+    background-position: center;
+    background-color: transparent;
+    background-image: url(../../img/burger.svg) ;
+    background-size: 38px;
+    background-repeat: no-repeat;
+}
+
+#navbar a:hover {
     border-bottom: 3px solid rgb(203, 0, 0);
 }
 
-#login {
+#navbar button:hover {
+    background-image: url(../../img/burgerColor.svg);
+    background-size: 28px;
+}
+
+#navbar #login {
     margin-left: auto;
+}
+
+#navbar #myLinks {
+    background-color: white;
+    display: none;
+}
+
+#navbar #myLinks a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: none;
+    margin: 0px 0px;
+}
+
+@media only screen and (max-width: 465px) {
+    #navbar {
+        height: 41px;
+    }
+    
+    #navbar a {
+        display: none;
+    }
+
+    #navbar #login {
+        display: block;
+        border: none;
+    }
+
+    #navbar button {
+        display: block;
+    }
+
+    #navbar #myLinks a {
+        display: block;
+    }
 }

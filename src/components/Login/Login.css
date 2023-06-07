@@ -40,7 +40,7 @@
 }
 
 #login-page input:focus {
-    border: 1px solid orange;
+    border: 1px solid red;
 }
 
 #login-page span {
@@ -49,6 +49,7 @@
 }
 
 #login-page .sign-up {
+    display: block;
     margin-right: 5px;
     margin-top: auto;
     text-decoration-line: none;
@@ -64,12 +65,12 @@
     margin-top: 40px;
     border: none;
     border-radius: 40px;
-    /* background-color:rgb(172, 172, 172); */
     background-color: white;
 }
 
 #login-page button:hover {
-    background-color: orange;
+    background-color: red;
+    color: white;
     cursor: pointer;
 }
 
@@ -88,9 +89,10 @@
     flex-direction: column;
 }
 
-.skrap {
+#login-page .skrap {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #forgot-password {
@@ -108,4 +110,15 @@
 
 #email-span {
     margin-right: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    #login-page {
+        background-image: url(../../img/VR46.jpg);
+    }
+    
+    #login-page form {
+        margin-top: 50px;
+        width: 230px;
+    }
 }

@@ -19,16 +19,16 @@ export default function Rules() {
         <div>
             <Navbar />
             <div id="stibidi">
-                <RuleCard image={ChequeredFlag} name="Chequered Flag" description="lolololollol"/>
-                <RuleCard image={YellowFlag} name="Yellow Flag" description="lolololollol"/>
-                <RuleCard image={RedFlag} name="Red Flag" description="lolololollol"/>
-                <RuleCard image={BlueFlag} name="Blue Flag" description="lolololollol"/>
-                <RuleCard image={BlackFlag} name="Black Flag" description="lolololollol"/>
-                <RuleCard image={GreenFlag} name="Green Flag" description="lolololollol"/>
-                <RuleCard image={WhiteFlag} name="White Flag" description="lolololollol"/>
-                <RuleCard image={SurfaceFlag} name="Surface Flag" description="lolololollol"/>
-                <RuleCard image={RainFlag} name="Rain Flag" description="lolololollol"/>
-                <RuleCard image={TechnicalFlag} name="Technical Flag" description="lolololollol"/>
+                <RuleCard image={ChequeredFlag} name="Chequered Flag" description="The MotoGP chequered flag signals the end of the race with its black and white checkerboard pattern"/>
+                <RuleCard image={YellowFlag} name="Yellow Flag" description="The yellow MotoGP flag warns riders of potential hazards such as crashes or objects on the track"/>
+                <RuleCard image={RedFlag} name="Red Flag" description="The red MotoGP flag signifies the immediate stoppage of the session due to a significant safety concern or track conditions"/>
+                <RuleCard image={BlueFlag} name="Blue Flag" description="The blue MotoGP flag signals slower riders to make way for faster riders approaching to overtake"/>
+                <RuleCard image={BlackFlag} name="Black Flag" description="MotoGP black flag signals the disqualification of a rider from the race due to a serious rule violation or safety concern"/>
+                <RuleCard image={GreenFlag} name="Green Flag" description=" The green MotoGP flag signifies the resumption of the race after a caution period or stoppage"/>
+                <RuleCard image={WhiteFlag} name="White Flag" description="The white MotoGP flag allows riders to swap bikes during changing track conditions"/>
+                <RuleCard image={SurfaceFlag} name="Surface Flag" description="The MotoGP surface flag signals that there could be debris, oil or something unatural that "/>
+                <RuleCard image={RainFlag} name="Rain Flag" description="The MotoGP rain flag alerts riders to the presence of rain or wet track conditions"/>
+                <RuleCard image={TechnicalFlag} name="Technical Flag" description="The MotoGP technical flag indicates a technical issue or problem with a rider's motorcycle"/>
             </div>
             <Footer />
         </div>

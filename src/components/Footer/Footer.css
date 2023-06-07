@@ -47,7 +47,7 @@
 }
 
 #footer .container {
-    margin: 0px 60px;
+    margin: 0px 30px;
 }
 
 #footer #email-input {
@@ -112,4 +112,29 @@
 
 #footer #newsletter-container {
     display: flex;
+}
+
+@media only screen and (max-width: 1000px) {
+    #footer #email-input {
+        font-size: medium;
+    }
+
+    #footer button {
+        font-size: medium;
+        padding: 0px 10px;
+    }
+
+    #footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #footer #newsletter {
+        padding-bottom: 30px;
+        margin: 0px;
+    }
+
+    #footer .container {
+        margin: 0px;
+    }
 }
